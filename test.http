@@ -1,0 +1,33 @@
+GET http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+###
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "todo": "new todo"
+}
+
+###
+
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": 1,
+    "todo": "update todo"
+}
+
+###
+DELETE http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id": 0
+}
+
